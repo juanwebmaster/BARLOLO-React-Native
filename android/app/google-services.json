@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "113272727801",
+    "firebase_url": "https://barlolo-2da37.firebaseio.com",
+    "project_id": "barlolo-2da37",
+    "storage_bucket": "barlolo-2da37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113272727801:android:2b037dfbe0e85cb8",
+        "android_client_info": {
+          "package_name": "com.comquas.barlolo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113272727801-70pm6g6o2pilhce6me0mbloe8besrjba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.comquas.barlolo",
+            "certificate_hash": "96d72b6b706c83bebeedea82133a4b7c55c26ec1"
+          }
+        },
+        {
+          "client_id": "113272727801-q0inrh461teqban58lprpo324gvj63nc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtUBF5tR4vrfGYp8JZzcnatq4pii_BMxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113272727801-q0inrh461teqban58lprpo324gvj63nc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "113272727801-3nssqc4cos0tn0qlpauk9jgd7cm5991a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.comquas.barlolo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

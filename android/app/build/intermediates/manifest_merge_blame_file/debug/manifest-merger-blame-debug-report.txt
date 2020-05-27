@@ -1,0 +1,264 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.comquas.barlolo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->E:\Development\BlueSky\barlolo\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->E:\Development\BlueSky\barlolo\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:5:5-81
+13-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:6:5-80
+14-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:6:22-77
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:7:5-65
+15-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:7:22-62
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:8:5-79
+16-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:8:22-76
+17    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+17-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:9:5-88
+17-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:9:22-85
+18    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required to access Google Play Licensing -->
+18-->[:react-native-firebase_auth] E:\Development\BlueSky\barlolo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+18-->[:react-native-firebase_auth] E:\Development\BlueSky\barlolo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
+19    <uses-permission android:name="com.android.vending.CHECK_LICENSE" /> <!-- Required to check whether Wi-Fi is enabled -->
+19-->[:rn-fetch-blob] E:\Development\BlueSky\barlolo\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-73
+19-->[:rn-fetch-blob] E:\Development\BlueSky\barlolo\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-70
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+20-->[:rn-fetch-blob] E:\Development\BlueSky\barlolo\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:5-76
+20-->[:rn-fetch-blob] E:\Development\BlueSky\barlolo\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:22-73
+21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+21-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\74f8373b67587f52dd8e0b26472e42ff\jetified-firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+21-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\74f8373b67587f52dd8e0b26472e42ff\jetified-firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+22-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+22-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
+23
+24    <application
+24-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:11:5-32:19
+25        android:name="com.comquas.barlolo.MainApplication"
+25-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:12:7-38
+26        android:allowBackup="false"
+26-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:16:7-34
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\f961a727fd6ff1bec6d760c391cc6822\core-1.1.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:14:7-41
+30        android:label="@string/app_name"
+30-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:13:7-39
+31        android:largeHeap="true"
+31-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:17:7-31
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:15:7-52
+33        android:theme="@style/AppTheme"
+33-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:19:7-38
+34        android:usesCleartextTraffic="true" >
+34-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:18:7-42
+35        <activity
+35-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:20:7-30:18
+36            android:name="com.comquas.barlolo.MainActivity"
+36-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:21:9-37
+37            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+37-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:23:9-79
+38            android:label="@string/app_name"
+38-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:22:9-41
+39            android:windowSoftInputMode="adjustResize" >
+39-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:24:9-51
+40            <intent-filter>
+40-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:25:9-29:25
+41                <action android:name="android.intent.action.MAIN" />
+41-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:26:13-65
+41-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:26:21-62
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:27:13-73
+43-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:27:23-70
+44
+45                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+45-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:28:13-77
+45-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:28:21-75
+46            </intent-filter>
+47        </activity>
+48        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+48-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:31:7-84
+48-->E:\Development\BlueSky\barlolo\android\app\src\main\AndroidManifest.xml:31:17-81
+49
+50        <provider
+50-->[:react-native-image-picker] E:\Development\BlueSky\barlolo\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-18:20
+51            android:name="com.imagepicker.FileProvider"
+51-->[:react-native-image-picker] E:\Development\BlueSky\barlolo\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-56
+52            android:authorities="com.comquas.barlolo.provider"
+52-->[:react-native-image-picker] E:\Development\BlueSky\barlolo\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-60
+53            android:exported="false"
+53-->[:react-native-image-picker] E:\Development\BlueSky\barlolo\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+54            android:grantUriPermissions="true" >
+54-->[:react-native-image-picker] E:\Development\BlueSky\barlolo\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-47
+55            <meta-data
+55-->[:react-native-image-picker] E:\Development\BlueSky\barlolo\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-17:58
+56                android:name="android.support.FILE_PROVIDER_PATHS"
+56-->[:react-native-image-picker] E:\Development\BlueSky\barlolo\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-67
+57                android:resource="@xml/provider_paths" />
+57-->[:react-native-image-picker] E:\Development\BlueSky\barlolo\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-55
+58        </provider>
+59        <provider
+59-->[:rn-fetch-blob] E:\Development\BlueSky\barlolo\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-44:20
+60            android:name="com.RNFetchBlob.Utils.FileProvider"
+60-->[:rn-fetch-blob] E:\Development\BlueSky\barlolo\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-62
+61            android:authorities="com.comquas.barlolo.provider"
+61-->[:rn-fetch-blob] E:\Development\BlueSky\barlolo\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-60
+62            android:exported="false"
+62-->[:rn-fetch-blob] E:\Development\BlueSky\barlolo\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-37
+63            android:grantUriPermissions="true" >
+63-->[:rn-fetch-blob] E:\Development\BlueSky\barlolo\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-47
+64            <meta-data
+64-->[:react-native-image-picker] E:\Development\BlueSky\barlolo\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-17:58
+65                android:name="android.support.FILE_PROVIDER_PATHS"
+65-->[:react-native-image-picker] E:\Development\BlueSky\barlolo\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-67
+66                android:resource="@xml/provider_paths" />
+66-->[:react-native-image-picker] E:\Development\BlueSky\barlolo\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-55
+67        </provider>
+68
+69        <activity
+69-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\05140ad8487ff0083794929a462d920c\jetified-firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
+70            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+70-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\05140ad8487ff0083794929a462d920c\jetified-firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
+71            android:excludeFromRecents="true"
+71-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\05140ad8487ff0083794929a462d920c\jetified-firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
+72            android:exported="true"
+72-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\05140ad8487ff0083794929a462d920c\jetified-firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
+73            android:launchMode="singleTask"
+73-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\05140ad8487ff0083794929a462d920c\jetified-firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
+74            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+74-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\05140ad8487ff0083794929a462d920c\jetified-firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+75-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\05140ad8487ff0083794929a462d920c\jetified-firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
+76
+77        <service
+77-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\05140ad8487ff0083794929a462d920c\jetified-firebase-auth-19.1.0\AndroidManifest.xml:33:9-39:19
+78            android:name="com.google.firebase.components.ComponentDiscoveryService"
+78-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\05140ad8487ff0083794929a462d920c\jetified-firebase-auth-19.1.0\AndroidManifest.xml:34:13-84
+79            android:exported="false" >
+79-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\05140ad8487ff0083794929a462d920c\jetified-firebase-auth-19.1.0\AndroidManifest.xml:35:13-37
+80            <meta-data
+80-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\05140ad8487ff0083794929a462d920c\jetified-firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
+81                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+81-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\05140ad8487ff0083794929a462d920c\jetified-firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\05140ad8487ff0083794929a462d920c\jetified-firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
+83            <meta-data
+83-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\ef66ebfa879a946fd830b83c97c66216\jetified-play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+84                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+84-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\ef66ebfa879a946fd830b83c97c66216\jetified-play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\ef66ebfa879a946fd830b83c97c66216\jetified-play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\74f8373b67587f52dd8e0b26472e42ff\jetified-firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+87                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+87-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\74f8373b67587f52dd8e0b26472e42ff\jetified-firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\74f8373b67587f52dd8e0b26472e42ff\jetified-firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+89        </service>
+90
+91        <receiver
+91-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\74f8373b67587f52dd8e0b26472e42ff\jetified-firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+92            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+92-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\74f8373b67587f52dd8e0b26472e42ff\jetified-firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+93            android:exported="true"
+93-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\74f8373b67587f52dd8e0b26472e42ff\jetified-firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+94            android:permission="com.google.android.c2dm.permission.SEND" >
+94-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\74f8373b67587f52dd8e0b26472e42ff\jetified-firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+95            <intent-filter>
+95-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\74f8373b67587f52dd8e0b26472e42ff\jetified-firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+96                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+96-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\74f8373b67587f52dd8e0b26472e42ff\jetified-firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+96-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\74f8373b67587f52dd8e0b26472e42ff\jetified-firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+97            </intent-filter>
+98        </receiver>
+99
+100        <provider
+100-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\5b664ea2e3080f02f31acf618e650ffa\jetified-firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+101            android:name="com.google.firebase.provider.FirebaseInitProvider"
+101-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\5b664ea2e3080f02f31acf618e650ffa\jetified-firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+102            android:authorities="com.comquas.barlolo.firebaseinitprovider"
+102-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\5b664ea2e3080f02f31acf618e650ffa\jetified-firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+103            android:exported="false"
+103-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\5b664ea2e3080f02f31acf618e650ffa\jetified-firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+104            android:initOrder="100" />
+104-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\5b664ea2e3080f02f31acf618e650ffa\jetified-firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+105
+106        <activity
+106-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\d515fa0142795af05e3369fe0848cba8\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+107            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+107-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\d515fa0142795af05e3369fe0848cba8\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+108            android:exported="false"
+108-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\d515fa0142795af05e3369fe0848cba8\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+109            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+109-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\d515fa0142795af05e3369fe0848cba8\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+110
+111        <receiver
+111-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+112            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+112-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+113            android:enabled="true"
+113-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+114            android:exported="false" >
+114-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+115        </receiver>
+116        <receiver
+116-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+117            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+117-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+118            android:enabled="true"
+118-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+119            android:exported="true"
+119-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+120            android:permission="android.permission.INSTALL_PACKAGES" >
+120-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+121            <intent-filter>
+121-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+122                <action android:name="com.android.vending.INSTALL_REFERRER" />
+122-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+122-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+123            </intent-filter>
+124        </receiver>
+125
+126        <service
+126-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+127            android:name="com.google.android.gms.measurement.AppMeasurementService"
+127-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+128            android:enabled="true"
+128-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+129            android:exported="false" />
+129-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+130        <service
+130-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+131            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+131-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+132            android:enabled="true"
+132-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+133            android:exported="false"
+133-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+134            android:permission="android.permission.BIND_JOB_SERVICE" />
+134-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\93a122d4216517ed30fe0b189b45ad5c\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+135
+136        <meta-data
+136-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\f720b24cc490c109d50c0a0a1e6bf186\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+137            android:name="com.google.android.gms.version"
+137-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\f720b24cc490c109d50c0a0a1e6bf186\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+138            android:value="@integer/google_play_services_version" />
+138-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Deva\.gradle\caches\transforms-2\files-2.1\f720b24cc490c109d50c0a0a1e6bf186\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+139    </application>
+140
+141</manifest>
